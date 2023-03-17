@@ -1,0 +1,16 @@
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
